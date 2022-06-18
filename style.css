@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-header{
+    background-image: url(./huddle/bg-hero-mobile.svg);
+    background-color:  hsl(193, 40%, 87%);
+    width: 100%;
+    height: 750px;
+}
+.logo-head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;  
+}
+.logo-head img{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px
+}
+.logo-head .free{
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid rgb(223, 218, 218);
+    border-radius: 15px;
+    width: 100px;
+}
+.info-head{
+    width: 100%;
+    height: 400px;
+}
+.info-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+}
+p{
+    font-family: 'open sans', sans-serif;
+    line-height: 1.5;
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    background-color: hsl(322, 100%, 66%);
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    height: 35px;
+    text-align: center;
+    margin: 2px 30%;
+}
+.info-img{
+    width: 100%;
+    text-align: center;
+}
+.info-img img{
+    margin: 30px auto;
+    width: 80%;
+    height: 250px;
+
+}
+.main-body{
+    width: 100%;
+    height: 3000px;
+}
+.div{
+    height: 700px;
+    border: 1px solid rgb(223, 218, 218);
+    border-radius: 15px;
+    margin: 50px auto;
+    width: 80%;
+    box-shadow: 1px 4px rgb(236, 232, 232);
+}
+.div-img{
+    width: 100%;
+    text-align: center;
+}
+.div-img img{
+    margin: 60px auto;
+    width: 80%;
+    height: 250px;
+}
+.div h3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.div p{
+    color: hsl(208, 11%, 55%);
+}
+.div3{
+    margin-bottom: 200px;
+}
+.middle{
+    border: 1px solid rgb(223, 218, 218);
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -120px;
+
+}
+.middle h3{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.main-footer{
+    background-color: hsl(192, 100%, 9%);
+    position: relative;
+}
+.logo-footer img{
+    color: hsl(193, 100%, 96%);
+    margin-top: 100px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+.icon{
+    display: flex;
+}
+.icon img{
+    margin-top: 10px;
+    width: 4%;
+    height: 30px;
+}
+.icon p{
+    text-align: start;
+    color: hsl(193, 100%, 96%);
+}
+.buttom-footer{
+    width: 100%;
+}
+.bf h3{
+    font-weight: lighter;
+    font-family: "Poppins", sans-serif;
+    color: hsl(193, 100%, 96%);
+    margin: 5px 10px;
+}
+.contacts{
+    padding: 20px;
+}
+.social{
+    margin-top: 50px;
+    text-align: center;
+}
+.social img{
+    background-color:  hsl(193, 100%, 96%);
+    border-radius: 50%;
+    width: 10%;
+    height: 30px;
+}
+.copyright{
+    margin-bottom: 20px;
+}
+.copyright p{
+    color: hsl(193, 100%, 96%);
+}
+
+@media only screen and (min-width: 700px) {
+    .logo-head{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .info-head{
+        display: flex;
+    }
+    .info-img img{
+        height: 400px;
+    } 
+    .info-text h2{
+        margin-left: 15%;
+        text-align: left;
+    }
+    .info-text p{
+        text-align: left;
+    }
+    .info-text .btn{
+        border-radius: 30px;
+        margin-left: 15%;
+    }
+    #main-header{
+        background-image: url(./huddle/bg-hero-desktop.svg);
+        height: 700px;
+    }
+    .div{
+        display: flex;
+        height: 350px;
+        width: 90%;
+    }
+    .div1 .d1-text{
+        order: 1;
+    }
+    .div1 .d1-image{
+        order: 2;
+    }
+    .div3 .d3-text{
+        order: 1;
+    }
+    .div3 .d3-image{
+        order: 2;
+    }
+    .sub-div{
+        padding-top: 10%;
+    }
+    .middle{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .sub-footer{
+        display: flex;
+        align-items: center;
+    }
+    .buttom-footer{
+        display: flex;
+        justify-content: space-between;
+        width: 33%;
+    }
+    .contacts{
+        width: 25%;
+        margin-left: 50px;
+    }
+    .social-footer{
+        width: 40%;
+    }
+    .social{
+        margin-top: 160px;
+    }
+    .social img{
+        margin-right: 10px;
+        width: 7%;
+    }
+    .copyright p{
+        font-size: 10px;
+        margin-top: 200px;
+        text-align: center;
+        width: 100%;
+    }
+    
+}
